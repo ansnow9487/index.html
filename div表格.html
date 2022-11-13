@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <a href="https://xain7093.github.io/312/">回首頁</a>
+    <style>
+        body {
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+header,footer,nav,.content {
+    margin: 5px;
+}
+
+header,footer {
+    height: 100px;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    background-color: deeppink;
+    height: 50px;
+}
+
+.content {
+    width: auto;
+    height: 350px;
+    display: flex;
+}
+
+.aside {
+    background-color: pink;
+    width: 200px;
+    height: 350px;
+    margin-right: 5px;
+}
+
+.article {
+    background-color: deepskyblue;
+    width: 600px;
+    height: 350px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section {
+    background-color: yellow;
+    margin: 5px;
+    width: auto;
+    height: 100px;
+}
+
+
+footer {
+    background-color: darkseagreen;
+}
+    </style>
+</head>
+<body style="width: 100%;display: flex;justify-content: center;">
+    <div>
+        <header>header</header>
+        <nav>nav</nav>
+        <div class="content">
+            <div class="aside">aside</div>
+            <div class="article">
+                article
+                <div class="section">section</div>
+            </div>
+        </div>
+        <footer>fooder</footer>
+        
+    </div>
+</body>
+</html>
